@@ -1,0 +1,56 @@
+export const online_friends = [
+    {
+        name: "John Doe",
+        isPlaying: false,
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Jane Smith",
+        isPlaying: false,
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Alice John",
+        isPlaying: true,
+        activity: "Playing Fortnite",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Bob Brown",
+        isPlaying: true,
+        activity: "Playing Call of Duty",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Charlie Da",
+        isPlaying: true,
+        activity: "Playing League of Legends",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Diana Prin",
+        isPlaying: true,
+        activity: "Playing Valorant",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Ethan Hunt",
+        isPlaying: true,
+        activity: "Playing Apex Legends",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+    {
+        name: "Fiona Appl",
+        isPlaying: true,
+        activity: "Playing Minecraft",
+        status: "online",
+        avatar: "/sample_user.png",
+    },
+]

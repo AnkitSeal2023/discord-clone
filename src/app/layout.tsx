@@ -30,14 +30,14 @@ export default function RootLayout({
           enableSystem={false}
           storageKey="discord-theme"
         >
-          <div className="h-full">
+          <div className="">
             <div className="fixed top-0 left-0 z-30 md:hidden p-4">
               <MobileToggle />
             </div>
             <div className="hidden md:flex h-full w-[72px] z-30 flex-col fixed inset-y-0">
               <NavigationSidebar />
             </div>
-            <main className="md:pl-[72px] h-full">
+            <main className="md h-full">
               {children}
             </main>
           </div>

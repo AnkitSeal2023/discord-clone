@@ -44,7 +44,7 @@ export const MobileToggle = () => {
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <div className="fixed top-0 left-0 z-30 p-4 md:hidden">
           <SheetTrigger asChild>
-            <Button variant="ghost" size="icon" className="md:hidden">
+            <Button variant="ghost" size="icon" className="md:hidden my-[-10]">
               <Menu />
             </Button>
           </SheetTrigger>

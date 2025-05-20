@@ -2,7 +2,7 @@ import TopBar from "@/components/TopBar";
 import {online_friends} from "@/data/friends.js";
 import Image from "next/image";
 
-const ofl = online_friends.length
+const online_friends_length = online_friends.length
 function OnLineFriendsList() {
   return online_friends.map((friend) => (
     <div key={friend.name}>
@@ -23,7 +23,7 @@ export default function Home() {
     <>
       <TopBar />
       <div className=" p-3 bg-gray-100 dark:bg-inherit">
-        <div>Online-{ofl}</div>
+        <div>Online-{online_friends_length}</div>
         <OnLineFriendsList />
       </div>
     </>
